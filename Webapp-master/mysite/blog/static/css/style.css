@@ -1,0 +1,102 @@
+*  {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin:0;
+    padding:0;
+    font-family:helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+a {
+    color:#00abff;
+    text-decoration:none;
+}
+
+h1 {
+    font-weight:normal;
+    padding:0 0 10px 0;
+}
+
+h2 {
+    font-weight:normal;
+    margin:30px 0 0;
+}
+
+
+.feautered-products {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.card {
+    position: relative;
+    background-color: #ffffff;
+}
+
+
+.row my-5 {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    display: inline-flex;
+}
+
+#sidebar {
+    float:right;
+    width:30%;
+    padding:10px;
+    background:#efefef;
+    height:100%;
+}
+
+p.date {
+    color:#ccc;
+    font-family: georgia, serif;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.pagination {
+    margin: 40px auto;
+    font-weight: bold;
+}
+.step-links {
+    margin: 0 auto;
+}
+.login-form{
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.profile-icon {
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    background-color: #007bff;
+    border-radius: 70%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.profile-icon:hover {
+    transform: scale(1.4);
+}
+
+.profile-text {
+    color: white;
+    font-size: 14px;
+    margin-left: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}

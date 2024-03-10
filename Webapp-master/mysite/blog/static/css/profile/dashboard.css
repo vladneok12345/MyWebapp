@@ -1,0 +1,78 @@
+body {
+    background: linear-gradient(to bottom right, blue, pink);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    justify-content: center;
+    display: flex;
+}
+h1 .title {
+    font-size: larger;
+}
+
+strong {
+    font-size: 18px;
+}
+
+p .inforamation {
+    font-weight: bold;
+    font-size: 15px;
+}
+/* Стилі для аватара */
+img.avatar {
+    width: 100px;
+    height: 100px;
+    margin: 2px solid black;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Стилі для кнопки "Вийти" */
+a.logout-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Стилі для контейнера профілю */
+.container {
+    max-width: 0 auto;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #b9b9b9;
+    border-radius: 15px;
+}
+
+.more-info-container {
+    position: relative;
+}
+
+.more-informations {
+    position: relative;
+    top: 30px;
+    left: 0;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button2 {
+    float: left;
+    margin-left: 10px;
+    width: 50px;
+    height: 20px;
+}
+
+
+.button3 {
+    float: right;
+    margin-right: 10px;
+    height: 20px;
+}

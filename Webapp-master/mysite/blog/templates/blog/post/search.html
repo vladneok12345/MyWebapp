@@ -1,0 +1,18 @@
+{% extends "blog/base.html" %}
+{% block content %}
+    <h1>Search trips by tags</h1>
+    <form method="get">
+        {{ form.as_p }}
+        <input type="submit" value="Search">
+    </form>
+    {% if trips %}
+        <h2>Search results</h2>
+        <ul>
+            {% for trip in trips %}
+                <li>
+                    {{ trip.name }} - {{ trip.description }} - {{ trip.tags }}
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock %}
